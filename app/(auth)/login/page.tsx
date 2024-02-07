@@ -16,7 +16,11 @@ const Login = (props: any) => {
           label="Login"
           type="submit"
           to="#"
-          classes="rounded-sm bg-blue w-full text-center border p-2 mt-4 bg-neutral-200 transition duration-400 ease-in-out hover:bg-blue-500 hover:text-white"
+          style={{
+            backgroundColor: "#21D4FD",
+            backgroundImage: "linear-gradient(35deg, #21D4FD 0%, #B721FF 100%)",
+          }}
+          classes="rounded-sm bg-blue w-full text-center border p-2 mt-4 bg-neutral-200 text-gray-100 hover:text-gray-100"
         />
       </form>
     </UnAuthenticatedLayout>
